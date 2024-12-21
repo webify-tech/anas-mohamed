@@ -1482,10 +1482,7 @@ body.left-light #fp-nav ul li a.active:hover span {
 }
 
 .page-cover .video-container video {
-  /*  height: 724px;
-    width: 1287px;
-    margin-top: -42px;
-    margin-left: 0px;*/
+
   height: 100vh;
   width: auto;
   margin-top: 0px;
