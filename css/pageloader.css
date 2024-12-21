@@ -36,6 +36,7 @@ html file
 .page-loader.p-hidden{
     visibility: hidden;
     opacity: 0;
+    height: 0;
 }
     .page-loader div{
         position: absolute;
