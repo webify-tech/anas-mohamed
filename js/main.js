@@ -1,5 +1,6 @@
 'use strict';
 
+
 // Init all plugin when document is ready 
 $(document).on('ready', function () {
     // 0. Init console to avoid error
@@ -93,8 +94,7 @@ $(document).on('ready', function () {
         animation: ['fadeIn']
     });
 
-    // 5. Init video background
-    $('.video-container video, .video-container object').maximage('maxcover');
+
 
     var lw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     if (lw >= 768) { var ldf = 'vertical'; } else { var ldf = 'horizontal'; }

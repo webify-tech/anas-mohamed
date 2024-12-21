@@ -9,7 +9,6 @@
 ::-webkit-scrollbar {
   display: none;
 }
-
 html {
   /* HTML tag init */
   color: #fff;
@@ -1486,7 +1485,8 @@ body.left-light #fp-nav ul li a.active:hover span {
 
 .page-cover .video-container video {
   height: 100vh;
-  width: auto;
+  width: 100%;
+  object-fit: cover;
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
