@@ -1485,6 +1485,7 @@ body.left-light #fp-nav ul li a.active:hover span {
   background-repeat: no-repeat;
   background-size:cover;
   background-position: bottom left;
+  /* filter: grayscale(100%); */
 }
 
 .page-cover .video-container video {
