@@ -516,8 +516,8 @@ var CaptchaCallback = function () {
     grecaptcha.render('recapfield', { 'sitekey': '6Lcp3pgdAAAAAJlPctKbBcsd5n1MjpDBoUWqFG4e' });
 }
 
-$("#videofield").click(function () {
-    var video = $("#videofieldid").get(0);
-    video.play();
-    //return false;
-});
+// $("#videofield").click(function () {
+//     var video = $("#videofieldid").get(0);
+//     video.play();
+//     //return false;
+// });

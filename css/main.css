@@ -1481,6 +1481,10 @@ body.left-light #fp-nav ul li a.active:hover span {
   top: 0;
   left: 0;
   z-index: -1;
+  background-image: url("/img/steak.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: bottom left;
 }
 
 .page-cover .video-container video {
@@ -5943,6 +5947,7 @@ body.left-light .s-footer a.black:hover .icon:before {
 
     .page-cover .video-container {
       z-index: -1;
+      background-position:10% 10%;
     }
 
     .header-top .logo-wrapper .logo .logo-images .light-logo {
